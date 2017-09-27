@@ -1,0 +1,258 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.logo{
+  margin-top: 40%;
+  width: 100%;
+}
+ul{
+  list-style: none;
+  background-color: #f3f3f3;
+}
+.container1{
+  background-color: #f3f3f3;
+  position: fixed;
+  height: 100%;
+  left: 0;
+  width: 18%;
+  top: 0;
+  box-shadow: 3px 0 10px rgba(0,0,0.2);
+  -webkit-transition: left .5s ease;
+  -moz-transition: left .5s ease;
+  -o-transition: left .5s ease;
+  transition: left .5s ease;
+  z-index: 1000;
+}
+.nav{
+  width: 100%;
+  /*border: 2px red solid;*/
+}
+#menu_principal{
+  width: 100%;
+}
+#menu_principal li a.selector{
+  color: #868686;
+  width: 100%;
+  display: block;
+  /*padding-left: 5px;*/
+  padding: 5px 0px 5px 5px;
+  text-decoration: none;
+  -webkit-transition:all .5s ease;
+  -moz-transition:all .5s ease;
+  -o-transition:all .5s ease;
+  transition:all .5s ease;
+  font-family: 'Encode Sans Semi Condensed', sans-serif;
+}
+#menu_principal{
+  padding-top: 20%;
+}
+#menu_principal > li{
+  margin: 0 0 5% 0;
+}
+.principales{
+  margin-right: 10px;
+}
+#menu_principal li a.selector:hover{
+  color: #fff;
+  cursor: pointer;
+  background-color: #2629A9;
+}
+#menu_principal li a#select{
+  background-color: #2629A9;
+  color: #fff;
+  font-family: 'Encode Sans Semi Condensed', sans-serif;
+}
+
+.container2{
+  /*border: 2px red solid;*/
+  width: 78%;
+  margin-right: 2%;
+}
+/*--------------slide-----------*/
+.container {
+    margin-top: 20px;
+}
+
+/* Carousel Styles */
+.carousel-indicators .active {
+    background-color: #2980b9;
+}
+
+.carousel-inner img {
+    width: 100%;
+    max-height: 460px;
+}
+
+.carousel-control {
+    width: 0;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  background-image: none;
+  background-repeat: no-repeat;
+  text-shadow: none;
+}
+
+.carousel-control.left span {
+  padding: 15px;
+}
+
+.carousel-control.right span {
+  padding: 15px;
+}
+
+.carousel-control .fa-chevron-left, 
+.carousel-control .fa-chevron-right, 
+.carousel-control .icon-prev, 
+.carousel-control .icon-next {
+  position: absolute;
+  top: 45%;
+  z-index: 5;
+  display: inline-block;
+}
+
+.carousel-control .fa-chevron-left,
+.carousel-control .icon-prev {
+  left: 0;
+}
+
+.carousel-control .fa-chevron-right,
+.carousel-control .icon-next {
+  right: 0;
+}
+
+.carousel-control.left span,
+.carousel-control.right span {
+  background-color: #000;
+}
+
+.carousel-control.left span:hover,
+.carousel-control.right span:hover {
+  opacity: .7;
+  filter: alpha(opacity=70);
+}
+
+/* Carousel Header Styles */
+.header-text {
+    position: absolute;
+    top: 20%;
+    left: 1.8%;
+    right: auto;
+    width: 96.66666666666666%;
+    color: #fff;
+}
+
+.header-text h2 {
+    font-size: 40px;
+}
+
+.header-text h2 span {
+  /*background-color: #2629A9;*/
+  background-color: rgba(0,0,0,.7);
+  padding: 10px 50px;
+}
+
+.header-text h3 span {
+  /*background-color: #000;*/
+  /*padding: 15px;*/
+  padding: 15px 50px;
+  background-color: rgba(0,0,0,.7);
+}
+
+.btn-min-block {
+    min-width: 170px;
+    line-height: 26px;
+}
+
+.btn-theme {
+    color: #000;
+    background-color: #89E80A;
+    border: 2px solid #000;
+    margin-right: 15px;
+}
+
+.btn-theme:hover {
+    color: #000;
+    background-color: #fff;
+    border-color: #000;
+}
+.container4{
+  margin-top: 5%;
+}
+
+/**/
+/*font-family: 'Montserrat', sans-serif;*/
+/*font-family: 'Teko', sans-serif;*/
+
+
+/*header{
+    width: 100%;
+    clear: both;
+    height: 550px;
+    background: url('../img/banner.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+}*/
+
+ 
+/*--------------FOOTER----------*/
+footer{
+  width: 100%;
+    background:#89E80A;
+    font-family: 'Montserrat', sans-serif;
+    height: 100px;
+    overflow: hidden;
+    clear: both;
+
+}
+footer p{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 2.5%;
+    color: #000;
+}
+
+
+/*------------------IR ARRIBa------------*/
+
+a.go-top {
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+    /*background-color: rgb(0, 0, 0, );*/
+    background-color: #A11548;
+    color: #fff;
+    font-size: 12px;
+    padding: 1em;
+    display: none;
+    z-index: 1;
+    text-decoration: none;
+}
+
+.go-top:hover {
+    /*background-color: rgba(0, 0, 0, 0.6);*/
+    background-color: black;
+    color: #fff;
+}
+
+
+/*--------------------------quienes somos--------------*/
+
+
+/*--------------servicios---------------------------------*/
+
+/*-------------contacto---------------------*/
