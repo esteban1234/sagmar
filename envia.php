@@ -1,6 +1,6 @@
 <?php
 //Librerías para el envío de mail
-require('../phpmailer/phpmailer/class.phpmailer.php');
+require('phpmailer/phpmailer/class.phpmailer.php');
 
 //PHPMailer Object
 $mail = new PHPMailer();
@@ -40,7 +40,7 @@ if(!$mail->send())
             <button type="button" class="close" data-dismiss="alert">&times;</button>
                 <strong>Error</strong> al enviar los datos.
                 </div>';
-  // $html = 2;
+	// $html = 2;
 
 }
 else

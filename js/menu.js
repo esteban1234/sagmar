@@ -1,36 +1,24 @@
-$(document).ready(main);
+$(function() {
+    var contador = 1;
+    var pull = $('.op-menu');
+    menu = $('nav');
+    abrir = $('.abrir');
+    cerrar = $('.cerrar');
+    menuHeight = pull.height();
 
-var contador = 1;
-
-function main() {
-    $('.menu-op i').click(function() {
+    $(pull).on('click', function(e) {
+        e.preventDefault();
         if (contador == 1) {
-            // $('.menu').css("display", "inline-block");
-            $('nav').animate({
-                left: '0'
-            }, 800);
-            // $('nav').animate({
-      			// 	marginLeft: '0'
-      			// },800);
-            // $('.menu-openclose').css("width", "31%");
-            // $('.menu-openclose .close').removeClass("oculto");
-            // $('.menu-openclose .close').css("float", "right");
-            // $('.menu-openclose .open').css("display", "none");
+           menu.slideToggle(100);
             contador = 0;
         } else {
+            menu.slideToggle(100);
+            // abrir.slideToggle(100);
             contador = 1;
-            // $('.menu').css("display", "none");
-            $('nav').animate({
-                left: '-100%'
-            }, 800);
-            // $('.menu-openclose').css("width", "100%");
-            // $('.menu-openclose .close').addClass("oculto");
-            // $('.menu-openclose .open').css("display", "block");
         }
     });
 
-    // Mostramos y ocultamos submenus
-    // $('.submenu').click(function() {
-    //     $(this).children('.children').slideToggle();
-    // });
-}
+    // if(menuHeight > 5){
+    //   pull.css('position','fixed');
+    // }
+});

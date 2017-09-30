@@ -1,0 +1,327 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.navbar{
+  margin-bottom: 0;
+}
+.bannerh{
+  top: 0;
+position: relative;
+width: 100%;
+height:585px;
+background: url('../img/banner03.jpg') center;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+ overflow: hidden;
+}
+.logo{
+width: 60%;
+background-color: rgba(255,255,255,.5);
+margin: 12% auto;
+}
+.container4{
+  /*border: 2px red solid;*/
+  overflow: hidden;
+  /*margin-top: 5%;*/
+  padding: 5% 0%;
+}
+.imagen img{
+  /*text-align: center;*/
+  margin: 0 auto;
+}
+.banner{
+  width: 100%;
+  height: 250px;
+  background: url('../img/banner.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  /*background-attachment: fixed;*/
+  overflow: hidden;
+}
+.texto{
+  /*border: 2px red solid;*/
+  font-family: 'Teko', sans-serif;
+  font-size: 18px;
+  /*text-align: center;*/
+  width: 51%;
+  margin: 0 auto;
+  margin-top: 7%;
+}
+.container5{
+  /*border: 2px red solid;*/
+  /*margin-top: 5%;*/
+  background-color:   #515a5a ; 
+  padding: 5% 0%;
+  overflow: hidden;
+}
+.row11{
+  overflow: hidden;
+  /*border: 2px red solid;*/
+  width: 80%;
+  margin: 0 auto;
+}
+.bannern{
+  width: 100%;
+  height: 250px;
+  background: url('../img/bannern.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  /*background-attachment: fixed;*/
+  overflow: hidden;
+}
+.texton{
+  font-family: 'Teko', sans-serif;
+  font-size: 35px;
+  /*text-align: center;*/
+  width: 64%;
+  margin: 0 auto;
+  margin-top: 8%;
+}
+.textono{
+  font-family: 'Teko', sans-serif;
+  font-size: 16px;
+  /*text-align: center;*/
+  padding: 30px;
+  width: 64%;
+  margin: 0 auto;
+  margin-top: 8%;
+  border: 1px #E5E5E5 solid;
+  margin-bottom: 8%;
+  text-align: justify;
+}
+
+.banners{
+  width: 100%;
+  height: 250px;
+  background: url('../img/comer.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  /*background-attachment: fixed;*/
+  overflow: hidden;
+}
+
+.textos{
+  font-family: 'Teko', sans-serif;
+  font-size: 35px;
+  /*text-align: center;*/
+  width: 64%;
+  margin: 0 auto;
+  margin-top: 4%;
+}
+.seccion{
+  padding-left: 3%;
+  overflow: hidden;
+}
+.price-block { border: 1px solid #e5eae8; background-color: #fff; padding: 40px; margin-bottom: 30px; border-radius: 0px 0px 5px 5px; margin-top: -1px; }
+.price-head { background-color: #f0f4f2; padding: 4px 0px 15px 30px; border-radius: 5px 5px 0px 0px; border: 1px solid #e5eae8; }
+.price-block ul {padding:0; list-style:none; border-bottom: 1px #d7dcda dashed; margin-bottom: 16px; margin-top: 15px; padding-bottom: 16px; }
+.price-block ul li { color: #676462; line-height: 24px; font-size: 13px; font-weight: 500; }
+.price-content { position: relative; border-bottom: 1px #bdc3c7 solid; }
+.price-text { color: #272625; position: absolute; font-weight: 500; top: -2px; right: 0px; }
+
+/*.btn-outline {
+    background-color: transparent;
+    color: inherit;
+    transition: all .5s;
+}
+
+.btn-success.btn-outline {
+  font-family: 'Montserrat', sans-serif;
+  color: #429F73;
+}
+
+.btn-success.btn-outline:hover {
+    color: #fff;
+}*/
+
+.bannerc{
+  width: 100%;
+  height: 250px;
+  background: url('../img/contacto2.png');
+  background-size: cover;
+  /*background-position: center center;*/
+  background-repeat: no-repeat;
+  /*background-attachment: fixed;*/
+  overflow: hidden;
+}
+.contenedor{
+  overflow: hidden;
+  width: 100%;
+}
+.izquierda{
+  /*border: 2px red solid;*/
+  width: 50%;
+  float: left;
+  margin-left: 5%;
+}
+.derecha{
+  /*border: 2px yellow solid;*/
+  width: 35%;
+  float: right;
+  margin-right: 5%;
+}
+.tit{
+  width: 500px;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+  color: #89E80A;
+}
+.contact-form{
+  /*border: 2px green solid;*/
+  /*max-width: 500px;*/
+  width: 500px;
+  margin: 50px auto;
+}
+
+.contact-form .form-group{
+  margin-bottom: 0;
+  position: relative;
+}
+.contact-form input,
+.contact-form textarea{
+  margin-bottom: 20px;
+  background: #ececec;
+}
+
+.contact-form input:focus{
+
+  border: 1px solid #999;
+  outline: none !important;
+}
+
+
+.contact-form input{
+  padding-left: 30px;
+}
+
+.contact-form textarea{
+  height: 300px !important;
+  padding-left: 30px;
+
+}
+.contact-form input[type="submit"]{
+
+  background: #5cb85c;
+}
+
+.contact-form i{
+  height: 0;
+  float: left;
+  position: relative;
+  top: -44px;
+  left: 10px;
+  color: #fff;
+}
+
+.contact-form .message-icon{
+  position: relative;
+    top: -310px;
+}
+
+.contact-form .send-icon{
+  color: #fff;
+}
+
+
+.asterix{
+  position: absolute;
+    color: red;
+    float: right;
+    font-size: 59px;
+    height: 0;
+    /* overflow: hidden; */
+    right: 0;
+    top: -11px;/
+}
+
+span.cross {
+    position: absolute;
+    color: red;
+    float: right;
+    font-size: 26px;
+    height: 0;
+    /* overflow: hidden; */
+    right: 3px;
+    top: -5px;
+    display: none;
+}
+
+i.fa.fa-check {
+    color: green;
+}
+
+legend{
+  margin: 70px 0;
+}
+
+.mapa{
+  width: 100%;
+}
+.mapa iframe{
+  width: 100%;
+}
+
+.seccion1{
+  width: 100%;
+  overflow: hidden;
+  /*border: 2px red solid;*/
+  padding: 2% 0% 0% 0%;
+}
+.seccion2{
+	width: 100%;
+	overflow: hidden;
+	/*border: 2px red solid;*/
+	padding: 0% 0% 9% 0%;
+	background-color: #fbfcfc;
+}
+.seccion3{
+	width: 100%;
+	overflow: hidden;
+	/*border: 2px red solid;*/
+	padding: 0% 0% 0% 0%;
+}
+
+/*--------------FOOTER----------*/
+footer{
+  width: 100%;
+  background:#4A4A4B;
+  font-family: 'Montserrat', sans-serif;
+  height: 100px;
+  /*font-size: 20px;*/
+  overflow: hidden;
+  clear: both;
+
+}
+footer p{
+  /*border: 2px red solid;*/
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 2.5%;
+    color: #fff;
+}
+
+.ir-arriba {
+	display:none;
+	padding:20px;
+	background:#89E80A;
+	font-size:20px;
+	color:#fff;
+	cursor:pointer;
+	position: fixed;
+	bottom:20px;
+	right:20px;
+	z-index: 100;
+}
