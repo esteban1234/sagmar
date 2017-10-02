@@ -79,26 +79,26 @@
 <section class="seccion1" id="NOSOTROS">
       <div class="container4">
         <div class="row1">
-        <h1 class="text-center text-success" style="font-family: 'Montserrat', sans-serif;">CALIDAD</h1>  <br><br>
-          <div class="col-md-4">
+        <h1 class="text-center text-success h1-cal" style="font-family: 'Montserrat', sans-serif;">CALIDAD</h1>  <br><br>
+          <div class="col-sm-4 col-md-4">
             <figure class="imagen">
               <img src="img/eco.png" class="img-responsive">
             </figure>
-            <h2 class="text-center">Ecológicos</h2>
+            <h2 class="text-center eee">Ecológicos</h2>
             
           </div>
-          <div class="col-md-4">
+          <div class="col-sm-4 col-md-4">
             <figure class="imagen">
               <img src="img/dinero.png" class="img-responsive">
             </figure>
-            <h2 class="text-center">Económicos</h2>
+            <h2 class="text-center eee">Económicos</h2>
             
           </div>
-          <div class="col-md-4">
+          <div class="col-sm-4 col-md-4">
             <figure class="imagen">
               <img src="img/tiro.png" class="img-responsive">
             </figure>
-            <h2 class="text-center">Especializados</h2>
+            <h2 class="text-center eee">Especializados</h2>
             
           </div>
         </div>
@@ -113,31 +113,31 @@
 
   <div class="container5">
         <div class="row11">
-          <div class="col-md-2">
+          <div class="col-sm-2 col-md-2">
             <img src="img/expe.png"
-            class=" img-responsive">
+            class=" img-responsive img-ees">
           </div>
-          <div class="col-md-4">
-            <h3 class="text-left" style="color: #fff;">Experiencia</h3>
-            <p class="text-left" style="color: #fff;">Sirviendo al mercado en general.</p>
+          <div class="col-sm-4 col-md-4">
+            <h3 class="text-left h3-text" style="color: #fff;">Experiencia</h3>
+            <p class="text-left p-ees" style="color: #fff;">Sirviendo al mercado en general.</p>
           </div>
-          <div class="col-md-2">
+          <div class="col-sm-2 col-md-2">
             <img src="img/enviar.png"
-            class=" img-responsive">
+            class=" img-responsive img-ees">
           </div>
-          <div class="col-md-4">
-            <h3 class="text-left" style="color: #fff;">Envios a todo México</h3>
-            <p class="text-left" style="color: #fff;">Entrega EXPRESS de 3 a 4 días</p>
+          <div class="col-sm-4 col-md-4">
+            <h3 class="text-left h3-text" style="color: #fff;">Envios a todo México</h3>
+            <p class="text-left p-ees" style="color: #fff;">Entrega EXPRESS de 3 a 4 días</p>
           </div>
         </div> <br><br>
         <div class="row11">
-          <div class="col-md-2 col-md-offset-3">
+          <div class="col-sm-2 col-sm-offset-3 col-md-2 col-md-offset-3">
             <img src="img/seguridad.png"
-            class=" img-responsive">
+            class=" img-responsive img-ees">
           </div>
-          <div class="col-md-4">
-            <h3 class="text-left" style="color: #fff;">Seguridad</h3>
-            <p class="text-left" style="color: #fff;">Tu mercancia vigilada por nuestro personal las 24 hrs.</p>
+          <div class="col-sm-4 col-md-4">
+            <h3 class="text-left h3-text" style="color: #fff;">Seguridad</h3>
+            <p class="text-left p-ees" style="color: #fff;">Tu mercancia vigilada por nuestro personal las 24 hrs.</p>
           </div>
         </div>
       </div>
@@ -153,27 +153,27 @@ Nos enfocamos en brindar a nuestros clientes productos de calidad, por lo que te
 
 <div class="container" style="padding-bottom: 4%;">
         <div class="row1">
-        <h1 class="text-center text-success" style="font-family: 'Montserrat', sans-serif;">COMERCIALIZADORA SAGMAR SA DE CV</h1>  <br><br>
+        <h1 class="text-center text-success h1-comer" style="font-family: 'Montserrat', sans-serif;">COMERCIALIZADORA SAGMAR SA DE CV</h1>  <br><br>
           <div class="col-md-4">
             <!-- <figure class="imagen">
               <img src="img/eco.png" class="img-responsive">
             </figure> -->
-            <h2 class="text-center">Misión</h2>
-            <p class="text-center">Comprometernos en comercializar todos nuestros articulos con la mas alta tecnologia, calidad, servicio y un precio competitivo para satisfacer plenamente a todos nuestros clientes y a los consumidores de nuestros productos.</p>
+            <h2 class="text-center h2-mvo">Misión</h2>
+            <p class="text-center p-mvo">Comprometernos en comercializar todos nuestros articulos con la mas alta tecnologia, calidad, servicio y un precio competitivo para satisfacer plenamente a todos nuestros clientes y a los consumidores de nuestros productos.</p>
           </div>
           <div class="col-md-4">
             <!-- <figure class="imagen">
               <img src="img/dinero.png" class="img-responsive">
             </figure> -->
-            <h2 class="text-center">Visión</h2>
-            <p class="text-center">Conformar un equipo de trabajo, que opere siempre en armonia para lograr sobresalir como una empresa reconocida a cualquier nivel, manteniendo los principios de calidad que son indispensables para el crecimiento de nuestro pais. </p>
+            <h2 class="text-center h2-mvo">Visión</h2>
+            <p class="text-center p-mvo">Conformar un equipo de trabajo, que opere siempre en armonia para lograr sobresalir como una empresa reconocida a cualquier nivel, manteniendo los principios de calidad que son indispensables para el crecimiento de nuestro pais. </p>
           </div>
           <div class="col-md-4">
             <!-- <figure class="imagen">
               <img src="img/tiro.png" class="img-responsive">
             </figure> -->
-            <h2 class="text-center">Objetivo</h2>
-            <p class="text-center">Comercializar la mayor cantidad de articulos dentro y fuera del pais, con la ayuda de nuestro equipo de trabajo brindandoles una capacitacion continua para que a base de eso podamos brindarle a nuestros clientes un servicio eficaz, comodo y con calidad. </p>
+            <h2 class="text-center h2-mvo">Objetivo</h2>
+            <p class="text-center p-mvo">Comercializar la mayor cantidad de articulos dentro y fuera del pais, con la ayuda de nuestro equipo de trabajo brindandoles una capacitacion continua para que a base de eso podamos brindarle a nuestros clientes un servicio eficaz, comodo y con calidad. </p>
           </div>
         </div>
       </div>
@@ -189,7 +189,7 @@ Nos enfocamos en brindar a nuestros clientes productos de calidad, por lo que te
   <p class="textono ">Estamos a las órdenes. Si requieres nuestros servicios desde otra parte de la República Mexcicana, pone en contacto con nosotros.</p>
 
   <div class="seccion">
-    <h1 class="text-center" style="font-family: 'Montserrat', sans-serif; color: #89E80A;">Comercio de productos<small> Algunos de nuestros productos</small></h1>
+    <h1 class="text-center h1-cp" style="font-family: 'Montserrat', sans-serif; color: #89E80A;">Comercio de productos<small> Algunos de nuestros productos</small></h1>
   <br><br>
 
     <div class="container">
@@ -314,7 +314,7 @@ Nos enfocamos en brindar a nuestros clientes productos de calidad, por lo que te
                         <h3>Artículos de papelería para uso escolar y de oficina</h3>
                     </div>
                     <div class="price-block">
-                        <div class="price-content">
+                        <div class="price-content oculto">
                             <h4>Lapiceras y estuches</h4>
                             <div class="price-text">
                                 <p>Existente</p>
@@ -438,9 +438,9 @@ Nos enfocamos en brindar a nuestros clientes productos de calidad, por lo que te
   <div class="contenedor">
     <div class="izquierda"> <br><br>
         <h3 class="text-center tit" >Formulario de contacto</h3>
-          <form action="" class="contact-form" method="POST">
+          <form action="" class="contact-form" onSubmit="return false">
             <div class="form-group">
-            <input type="text" name="username" id="username" class="username form-control" placeholder="Nombre completo" value="">
+            <input type="text" name="username" id="txtNOMBRE" class="username form-control" placeholder="Nombre completo" value="">
             <i class="fa fa-user"></i>
             <span class="asterix">*</span>
             
@@ -448,7 +448,7 @@ Nos enfocamos en brindar a nuestros clientes productos de calidad, por lo que te
     
             
             <div class="form-group">
-            <input type="text" name="email" class=" email form-control" placeholder="Escribe tu correo" value="">
+            <input type="text" name="email" id="txtCORREO" class="email form-control" placeholder="Escribe tu correo" value="">
             <i class="fa fa-envelope"></i>
             <span class="asterix">*</span>
             
@@ -456,7 +456,7 @@ Nos enfocamos en brindar a nuestros clientes productos de calidad, por lo que te
     
             
             <div class="form-group">
-            <input type="text" name="subject" class="subject form-control" placeholder="Escribe tu teléfono" value="">
+            <input type="text" name="subject" id="txtTELEFONO" class="subject form-control" placeholder="Escribe tu teléfono" value="">
             <i class="fa fa-phone"></i>
             <span class="asterix">*</span>
             
@@ -464,14 +464,15 @@ Nos enfocamos en brindar a nuestros clientes productos de calidad, por lo que te
     
             
             <div class="form-group">
-            <textarea class=" message form-control" name="message" placeholder="Escribe tu comentario"></textarea>
+            <textarea class=" message form-control" id="txtCOMENTARIO" name="message" placeholder="Escribe tu comentario"></textarea>
             <i class="fa fa-comments message-icon"></i>
             <span class="asterix">*</span>
             
             </div>
     
             <div class="form-group">
-            <input type="submit" value="ENVIAR" class="btn btn-success btn-block">
+            <div id="_AJAX_PRE_"></div>
+            <input type="submit" value="ENVIAR" class="btn btn-success btn-block btn-envia" onclick="sendCORREO()">
             <i class="fa fa-paper-plane send-icon"></i>
             </div>
           </form>
@@ -515,9 +516,10 @@ Nos enfocamos en brindar a nuestros clientes productos de calidad, por lo que te
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.js"></script>
     <script src="js/jquery.js"></script>
     <script src="js/arriba.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/menu.js"></script>
+    
+    <!-- <script src="js/menu.js"></script> -->
   </body>
 </html>
